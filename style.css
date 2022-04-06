@@ -1,0 +1,202 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/* Navigation Bar */
+.navbar{
+    background-color: rgb(49 49 50);
+    width: 100%;
+    height: 35px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
+}
+
+img.logo{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+}
+img.icons{
+    width: 16px;
+    height: 16px;
+    align-items: center;
+}
+.top-links{
+   text-decoration: none;
+   color: #acacac;
+   padding: 20px;
+   font-size: 10px;
+   font-family: 'Roboto', sans-serif;
+   align-items: center;
+}
+.top-links:hover{
+    color: rgb(189, 189, 189);
+}
+.bag{
+    width: 40px;
+    align-items: center;
+}
+/* Ukraine Help */
+.charity{
+    width: 100%;
+    height: 40px;
+    background-color: #f5f5f7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.charity a{
+    color: #acacac;
+    text-decoration: none;
+    font-size: 11px;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.charity img{
+    width: 90px;
+}
+/* iPhone Top */
+.iphone-top{
+    background-color: #fbfbfd;
+   display: flex;
+   flex-direction:column;
+   align-items: center;
+   padding-top: 20px;
+   margin-top: 17px;
+}
+.iphone-top h1{
+    font-size: 40px;
+    font-family:'Roboto', sans-serif ;
+    font-weight: bold;
+    
+
+}
+.iphone-top p{
+    font-family: 'Roboto', sans-serif ;
+}
+.iphone-top a{
+    text-decoration: none;
+    color: #0a6cce;
+    padding: 20px ;
+    font-family:  'Roboto', sans-serif;
+}
+.iphone-top img{
+    width: 700px;
+}
+.links{
+    padding-top: 15px;
+    padding-bottom: 20px;
+}
+.apple-watch{
+    width: 600px;
+}
+#iphone-se{
+    width: 870px;
+}
+/* Grid Items */
+.products{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap:9px;
+    margin:8px;
+}
+.items{
+    width: 100%;
+    height: 400px;
+    background-color: #fbfbfd;
+    border: 2px solid white;
+}
+#ipad-air{
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    align-items: center;
+    justify-content: center;
+}
+#ipad-air h1{
+    font-size: 40px;
+    font-family:'Roboto', sans-serif ;
+    font-weight: bold;
+    color: white;
+}
+#ipad-air p{
+    font-family: 'Roboto', sans-serif ;
+    color: white;
+}
+#ipad-air a{
+    font-family: 'Roboto', sans-serif ;
+    color: #0a6cce;
+    text-decoration: none;
+    
+}
+#ipads{
+    width: 300px;
+}
+#iphone{
+    display: flex;
+    flex-direction: column;
+    background-color: #fbfbfd;
+    align-items: center;
+    justify-content: center;
+   
+}
+#iphone h1{
+    margin-top:40px; 
+    font-size: 40px;
+    font-family:'Roboto', sans-serif ;
+    font-weight: bold;
+    color: rgb(0, 0, 0);
+}
+#iphone p{
+    font-family: 'Roboto', sans-serif ;
+    color: rgb(0, 0, 0);
+}
+#iphone a{
+    font-family: 'Roboto', sans-serif ;
+    color: #0a6cce;
+    text-decoration: none;
+    
+}
+#iphone13{
+    width: 580px;
+}
+.links a {
+    padding: 10px;
+}
+#imac{
+    width: 500px;
+}
+.links-special a{
+   text-decoration: none;
+   color:#0a6cce ;
+   font-family: 'Roboto', sans-serif ;
+   padding: 10px;
+   
+}
+#film{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column;
+}
+#film-img{
+    width: 340px;
+}
+#series{
+    background-color: black;
+    background-image: url("images/series-poster.png");
+    background-repeat: no-repeat;
+    background-size: 750px  ;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    padding-bottom: 20px;
+}
+#stream{
+    text-decoration: none;
+    color: #0a6cce;
+    font-family: 'Roboto', sans-serif;
+}
